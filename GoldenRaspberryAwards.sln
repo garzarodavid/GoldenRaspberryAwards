@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8BBE8203-67C4-4A96-8F63-62DED27E4799}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F951876C-E358-41C3-BE5F-8BEF76F2EE31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.Api", "src\GoldenRaspberryAwards.Api\GoldenRaspberryAwards.Api.csproj", "{CAB8E3D5-3739-42D0-821E-18362F55E277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.Application", "src\GoldenRaspberryAwards.Application\GoldenRaspberryAwards.Application.csproj", "{1EBF7F47-C407-4DB1-941D-5F079CA5A2CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.Domain", "src\GoldenRaspberryAwards.Domain\GoldenRaspberryAwards.Domain.csproj", "{B2BD0BA7-5F6A-4032-9877-891284C4C159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.Infrastructure", "src\GoldenRaspberryAwards.Infrastructure\GoldenRaspberryAwards.Infrastructure.csproj", "{AA7A2C9F-70C0-4A85-850A-D247F3AED405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldenRaspberryAwards.Api.Tests", "tests\GoldenRaspberryAwards.Api.Tests\GoldenRaspberryAwards.Api.Tests.csproj", "{1D64C1ED-B636-4312-BCDC-15EF752AF171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAB8E3D5-3739-42D0-821E-18362F55E277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB8E3D5-3739-42D0-821E-18362F55E277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB8E3D5-3739-42D0-821E-18362F55E277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB8E3D5-3739-42D0-821E-18362F55E277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBF7F47-C407-4DB1-941D-5F079CA5A2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBF7F47-C407-4DB1-941D-5F079CA5A2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBF7F47-C407-4DB1-941D-5F079CA5A2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBF7F47-C407-4DB1-941D-5F079CA5A2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BD0BA7-5F6A-4032-9877-891284C4C159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BD0BA7-5F6A-4032-9877-891284C4C159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BD0BA7-5F6A-4032-9877-891284C4C159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BD0BA7-5F6A-4032-9877-891284C4C159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7A2C9F-70C0-4A85-850A-D247F3AED405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7A2C9F-70C0-4A85-850A-D247F3AED405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7A2C9F-70C0-4A85-850A-D247F3AED405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7A2C9F-70C0-4A85-850A-D247F3AED405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D64C1ED-B636-4312-BCDC-15EF752AF171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D64C1ED-B636-4312-BCDC-15EF752AF171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D64C1ED-B636-4312-BCDC-15EF752AF171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D64C1ED-B636-4312-BCDC-15EF752AF171}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAB8E3D5-3739-42D0-821E-18362F55E277} = {8BBE8203-67C4-4A96-8F63-62DED27E4799}
+		{1EBF7F47-C407-4DB1-941D-5F079CA5A2CE} = {8BBE8203-67C4-4A96-8F63-62DED27E4799}
+		{B2BD0BA7-5F6A-4032-9877-891284C4C159} = {8BBE8203-67C4-4A96-8F63-62DED27E4799}
+		{AA7A2C9F-70C0-4A85-850A-D247F3AED405} = {8BBE8203-67C4-4A96-8F63-62DED27E4799}
+		{1D64C1ED-B636-4312-BCDC-15EF752AF171} = {F951876C-E358-41C3-BE5F-8BEF76F2EE31}
+	EndGlobalSection
+EndGlobal
